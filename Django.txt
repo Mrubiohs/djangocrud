@@ -1,0 +1,19 @@
+python --version
+py -m venv venv
+script -> activate
+pip install django
+py -m pip install --upgrade pip
+django-admin --version
+
+
+en ese render le pasamos un parametr
+
+variable title - helo
+se crea un diccionario al lado de signup
+
+metodo post http formulario, envia campos de forma escondidos, no se ira a traves de la URL, no mostrara en la url ninguna informacion.
+
+Metodo CSRF TOKEN MISSING 
+ASEGURAR APP
+EVITAR PAGINA SUPLANTADA , TOKEN EN CADA FORMULARIO, TOKEN CREADO POR EL PROPIO SERVIDOR.
+
